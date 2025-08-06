@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Xplore With Tharvesh</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
+        }
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.10);
+            transition: transform 0.2s;
+        }
+        .gallery-grid img:hover {
+            transform: scale(1.04) rotate(-1deg);
+        }
+        .back-home-btn {
+            display: inline-block;
+            margin: 30px auto 0;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+            transition: background 0.2s, transform 0.2s;
+        }
+        .back-home-btn:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery-header">
+            <h1>Natural Scenes Gallery</h1>
+            <p>50 beautiful random images from nature</p>
+        </div>
+        <div class="gallery-grid">
+            <!-- 50 images from Unsplash (random nature) -->
+            <img src="https://source.unsplash.com/random/400x300?nature,1" alt="Nature 1">
+            <img src="https://source.unsplash.com/random/400x300?nature,2" alt="Nature 2">
+            <img src="https://source.unsplash.com/random/400x300?nature,3" alt="Nature 3">
+            <img src="https://source.unsplash.com/random/400x300?nature,4" alt="Nature 4">
+            <img src="https://source.unsplash.com/random/400x300?nature,5" alt="Nature 5">
+            <img src="https://source.unsplash.com/random/400x300?nature,6" alt="Nature 6">
+            <img src="https://source.unsplash.com/random/400x300?nature,7" alt="Nature 7">
+            <img src="https://source.unsplash.com/random/400x300?nature,8" alt="Nature 8">
+            <img src="https://source.unsplash.com/random/400x300?nature,9" alt="Nature 9">
+            <img src="https://source.unsplash.com/random/400x300?nature,10" alt="Nature 10">
+            <img src="https://source.unsplash.com/random/400x300?nature,11" alt="Nature 11">
+            <img src="https://source.unsplash.com/random/400x300?nature,12" alt="Nature 12">
+            <img src="https://source.unsplash.com/random/400x300?nature,13" alt="Nature 13">
+            <img src="https://source.unsplash.com/random/400x300?nature,14" alt="Nature 14">
+            <img src="https://source.unsplash.com/random/400x300?nature,15" alt="Nature 15">
+            <img src="https://source.unsplash.com/random/400x300?nature,16" alt="Nature 16">
+            <img src="https://source.unsplash.com/random/400x300?nature,17" alt="Nature 17">
+            <img src="https://source.unsplash.com/random/400x300?nature,18" alt="Nature 18">
+            <img src="https://source.unsplash.com/random/400x300?nature,19" alt="Nature 19">
+            <img src="https://source.unsplash.com/random/400x300?nature,20" alt="Nature 20">
+            <img src="https://source.unsplash.com/random/400x300?nature,21" alt="Nature 21">
+            <img src="https://source.unsplash.com/random/400x300?nature,22" alt="Nature 22">
+            <img src="https://source.unsplash.com/random/400x300?nature,23" alt="Nature 23">
+            <img src="https://source.unsplash.com/random/400x300?nature,24" alt="Nature 24">
+            <img src="https://source.unsplash.com/random/400x300?nature,25" alt="Nature 25">
+            <img src="https://source.unsplash.com/random/400x300?nature,26" alt="Nature 26">
+            <img src="https://source.unsplash.com/random/400x300?nature,27" alt="Nature 27">
+            <img src="https://source.unsplash.com/random/400x300?nature,28" alt="Nature 28">
+            <img src="https://source.unsplash.com/random/400x300?nature,29" alt="Nature 29">
+            <img src="https://source.unsplash.com/random/400x300?nature,30" alt="Nature 30">
+            <img src="https://source.unsplash.com/random/400x300?nature,31" alt="Nature 31">
+            <img src="https://source.unsplash.com/random/400x300?nature,32" alt="Nature 32">
+            <img src="https://source.unsplash.com/random/400x300?nature,33" alt="Nature 33">
+            <img src="https://source.unsplash.com/random/400x300?nature,34" alt="Nature 34">
+            <img src="https://source.unsplash.com/random/400x300?nature,35" alt="Nature 35">
+            <img src="https://source.unsplash.com/random/400x300?nature,36" alt="Nature 36">
+            <img src="https://source.unsplash.com/random/400x300?nature,37" alt="Nature 37">
+            <img src="https://source.unsplash.com/random/400x300?nature,38" alt="Nature 38">
+            <img src="https://source.unsplash.com/random/400x300?nature,39" alt="Nature 39">
+            <img src="https://source.unsplash.com/random/400x300?nature,40" alt="Nature 40">
+            <img src="https://source.unsplash.com/random/400x300?nature,41" alt="Nature 41">
+            <img src="https://source.unsplash.com/random/400x300?nature,42" alt="Nature 42">
+            <img src="https://source.unsplash.com/random/400x300?nature,43" alt="Nature 43">
+            <img src="https://source.unsplash.com/random/400x300?nature,44" alt="Nature 44">
+            <img src="https://source.unsplash.com/random/400x300?nature,45" alt="Nature 45">
+            <img src="https://source.unsplash.com/random/400x300?nature,46" alt="Nature 46">
+            <img src="https://source.unsplash.com/random/400x300?nature,47" alt="Nature 47">
+            <img src="https://source.unsplash.com/random/400x300?nature,48" alt="Nature 48">
+            <img src="https://source.unsplash.com/random/400x300?nature,49" alt="Nature 49">
+            <img src="https://source.unsplash.com/random/400x300?nature,50" alt="Nature 50">
+        </div>
+        <div style="text-align:center;">
+            <a href="/" class="back-home-btn">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html> 
